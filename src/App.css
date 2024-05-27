@@ -1,0 +1,136 @@
+main{
+  padding-top: 60px;
+}
+.App {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #1c1c1e;
+  line-height: 1.6;
+}
+
+.App-header {
+  background: #121212;
+  padding: 10px 20px;
+  border-bottom: 1px solid #333;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  position: relative;
+  margin: 0 10px;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #333;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: #1c1c1e;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.hero button {
+  background: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.partners, .market-data, .trusted-data, .universal-access, .data-on-demand, .faqs, .get-started {
+  padding: 40px 20px;
+  border-bottom: 1px solid #333;
+}
+
+.partner-logos img, .trusted-logos img {
+  margin: 10px;
+  width: 100px;
+}
+
+.market-data-stats {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+ 
+}
+
+.market-data-stats .stat {
+  text-align: center;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-item {
+  padding: 10px;
+  background: #333;
+  margin: 10px 0;
+}
+
+.get-started button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #121212;
+}
+
+.footer-links .link-column {
+  width: 200px;
+}
+
+.footer-links .link-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background: #121
+}
+.firstbtn1:hover{
+  background-color: darkblue ;
+  color: black;
+}
+.circular{
+  border-radius: 20px;
+}
