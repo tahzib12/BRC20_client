@@ -6,7 +6,7 @@ const ImageWithNote = ({ src, alt, header, paragraph }) => {
       <img
         src={src}
         alt={alt}
-        className="w-[100%] h-[50px] circular transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+        className="w-[100px] h-[50px] circular transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
       />
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 w-64 bg-white p-4 shadow-lg rounded-md z-10">
         <h3 className="text-lg font-semibold mb-2">{header}</h3>
