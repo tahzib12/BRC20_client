@@ -3,7 +3,7 @@ import './Footer.css'; // Ensure you create and import the corresponding CSS fil
 
 const Footer = () => {
   return (
-    <footer className="footer !border-t-3 !border-red-500">
+    <footer className="footer border-t-2 border-red-600">
       <div className="footer-container  py-5">
         <div className="footer-logo">
           <h2>PYTH</h2>

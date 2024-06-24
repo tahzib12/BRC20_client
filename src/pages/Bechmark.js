@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
+import CryptoTable from '../CryptoTable';
 
 function Benchmark() {
   return (
@@ -15,10 +16,13 @@ function Benchmark() {
         </div>
 
         <div className='col-md-6 '>
-          <img src='https://img.freepik.com/free-photo/3d-shape-glowing-with-bright-holographic-colors_23-2151037241.jpg?t=st=1716793974~exp=1716797574~hmac=db9a1da044d0e755a2ff81ca0aeb058ae47922e69e52b7b149d7af4ab770d7e2&w=900' alt='jhfhgf' className='w-100 h-auto circular transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ... ' />
+          <img src='https://img.freepik.com/free-photo/futurism-perspective-digital-nomads-lifestyle_23-2151252458.jpg?t=st=1719133009~exp=1719136609~hmac=51436d4f79899b59f0d9e08a31bdde77b84abb112106de84b512fdc3c21a81f4&w=826' alt='jhfhgf' className='w-100 h-auto circular transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ... ' />
         </div>
       </section>
       {/* section 1 end*/}
+      <div className="bg-gray-900 min-h-screen px-24  ">
+        <CryptoTable />
+      </div>
         <Footer />
     </div>
   );

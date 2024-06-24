@@ -29,9 +29,9 @@
   .nav-item:hover {
     background-color: #444;
   }
-  
-  .dropdown {
-    display: none;
+    
+  .navdropdown {
+    /* display: none; */
     position: absolute;
     top: 38px;
     left: 0;
@@ -42,20 +42,20 @@
     border-radius: 4px;
   }
   
-  .dropdown-item {
+  .navdropdown-item {
     padding: 10px 30px;
     color: #fff;
     white-space: nowrap;
     z-index: 1000;
   }
   
-  .dropdown-item:hover {
+  .navdropdown-item:hover {
     background-color: #666;
     background-size: 80% 80% ;
     z-index: 1000;
   }
   
-  .nav-item:hover .dropdown {
+  .nav-item:hover .navdropdown {
     display: block;
   }
   

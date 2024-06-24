@@ -1,0 +1,33 @@
+.price-feed-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .price-feed-table th, .price-feed-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .price-feed-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .price-feed-table td {
+    background-color: #ffffff;
+  }
+  
+  .price-feed-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .price-feed-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .price-feed-table td:nth-child(8) {
+    text-align: center;
+  }
+  
